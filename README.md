@@ -104,14 +104,14 @@ current episodes diverge from historical precedent.
 ## Key SHAP Findings
 
 - **ovx_level_z and vix_level_z** are the dominant predictors across 
-  both regimes — Z-scores carry the primary predictive weight
+  both regimes - Z-scores carry the primary predictive weight
 - **rolling_corr_60** is 6x more important for equity-led signal 
-  activation — equity stress requires sustained co-movement (mean 0.697) 
+  activation - equity stress requires sustained co-movement (mean 0.697) 
   vs oil-led episodes where OVX spikes independently (mean 0.393)
-- **HYG_SPX_corr_60** is 7x more important for equity-led stress — 
+- **HYG_SPX_corr_60** is 7x more important for equity-led stress -  
   credit/equity coupling is the defining signature of financial contagion
 - **cb_sentiment** shows asymmetric importance (0.036 equity-led vs 
-  0.004 oil-led) — equity stress is more policy-sensitive than oil 
+  0.004 oil-led) - equity stress is more policy-sensitive than oil 
   supply shocks
 - Every methodological choice confirmed by independent feature 
   importance rankings
